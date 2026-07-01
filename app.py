@@ -101,7 +101,7 @@ if file:
         new_final = group.iloc[-1]['New']
         fecha_final = group.iloc[-1]['Fecha']
         hora_final = group.iloc[-1]['Hora']
-        diferencia = abs(old_inicial - new_final)
+        diferencia = old_inicial - new_final
     
         pendiente_real.append({
             'Entity': ent,
